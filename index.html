@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Page</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .header-title {
+            font-size: 8em;
+            margin: 10px 0;
+        }
+        .subtitle {
+            font-size: 2em;
+            color: gray;
+            margin: 5px 0 20px 0;
+        }
+        .app-store-button img {
+            width: 150px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        .app-store-button img:hover {
+            transform: scale(1.1);
+        }
+        #subtitle {
+            color: rgb(255, 121, 73);
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="appNew.png" id="image"alt="Descriptive Alt Text" width="30%">
+        <h1 class="header-title">PassCollect</h1>
+        <p class="subtitle">Store all your cards and passes.</p>
+        <p class="subtitle" id="subtitle">All without logging in</p>
+        <a href="https://www.apple.com/app-store/" class="app-store-button">
+            <img src="appstore.svg" alt="Download on the App Store">
+        </a>
+    </div>
+</body>
+</html>
