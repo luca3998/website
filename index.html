@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">    <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PassCollect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <style>
-       body {
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -13,42 +14,86 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-color: #eeeeee;
         }
+
         .container {
             text-align: center;
             padding: 20px;
             border-radius: 8px;
+            max-width: 90%;
         }
+
         .header-title {
-            font-size: 8em;
+            font-size: 4em;
             margin: 10px 0;
             font-family: Inter;
         }
+
         .subtitle {
-            font-size: 2em;
+            font-size: 1.5em;
             color: gray;
-            margin: 0px 0 10px 0;
+            margin: 0 0 10px 0;
             font-family: Inter;
         }
+
         .app-store-button img {
             width: 150px;
             cursor: pointer;
             transition: transform 0.2s ease;
         }
+
         .app-store-button img:hover {
             transform: scale(1.1);
         }
-       
+
         #subtitle {
             color: rgb(255, 121, 73);
-            margin: 0 0 30px 0
+            margin: 0 0 30px 0;
         }
-    
+
+        img#image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-title {
+                font-size: 2.5em;
+            }
+
+            .subtitle {
+                font-size: 1.2em;
+            }
+
+            .app-store-button img {
+                width: 120px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-title {
+                font-size: 2em;
+            }
+
+            .subtitle {
+                font-size: 1em;
+            }
+
+            .app-store-button img {
+                width: 100px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="appNew.png" id="image"alt="Descriptive Alt Text" width="30%">
+        <img src="appNew.png" id="image" alt="Descriptive Alt Text" width="30%">
         <h1 class="header-title">PassCollect</h1>
         <p class="subtitle">Store all your cards and passes.</p>
         <p class="subtitle" id="subtitle">All without logging in</p>
