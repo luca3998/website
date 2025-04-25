@@ -17,9 +17,29 @@
             justify-content: center;
             flex-direction: column;
             align-items: center;
-            background-color: #eeeeee;;
+            background-color: ##ffffff;;
         }
         
+        .carousel {
+            position: relative;
+            width: 100%;               
+            max-width: 280px;         
+            aspect-ratio: 10/16;      
+            overflow: hidden;
+            margin: 0 auto;     
+        }
+        .carousel img {
+            position: absolute;
+            inset: 0;                 
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            opacity: 0;
+            transition: opacity 0.8s ease-out;
+        }
+        .carousel img.active {
+            opacity: 1;
+        }
 
         .container {
             text-align: center;
@@ -104,10 +124,30 @@
             }
         }
     </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const imgs = document.querySelectorAll('#carousel img');
+        let i = 0;        
+        setInterval(() => {
+            imgs[i].classList.remove('active');
+            i = (i + 1) % imgs.length;
+            imgs[i].classList.add('active');
+        }, 3500);
+        });
+    </script>
+
 </head>
 <body>
     <div class="container">
-        <img src="appNew.png" id="image" alt="Descriptive Alt Text" width="30%">
+        <div class="carousel" id="carousel">
+      <img src="images/HomeView.png"     alt="Save your favorite cards all in one place"  class="active">
+      <img src="images/scanbarcodes.png"     alt="Add barcodes with barcode scanning">
+      <img src="images/watch.png"     alt="Syncs with apple watch" >
+      <img src="images/images.png"     alt="Add images of your cards" >
+      <img src="images/lock.png"     alt="Add shortcuts to your lockscreen" >
+      <img src="images/Widgets.png"     alt="Add widgets for your favorite cards" >
+    </div>
         <h1 class="header-title">PassCollect</h1>
         <p class="subtitle">Store all your cards and passes.</p>
         <p class="subtitle" id="subtitle">All without logging in.</p>
