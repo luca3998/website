@@ -4,12 +4,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-itunes-app" content="app-id=6738351871">
+  <title>PassCollect | Store Loyalty Cards, Passes & Memberships</title>
+  <meta name="description" content="Store all your loyalty cards, passes, and memberships in PassCollect for iPhone and Apple Watch. No login required — your data stays private with iCloud.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Luca">
+  <link rel="canonical" href="https://lucadevelops.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lucadevelops.com/">
+  <meta property="og:site_name" content="PassCollect">
+  <meta property="og:title" content="PassCollect | Store Loyalty Cards, Passes & Memberships">
+  <meta property="og:description" content="Store all your loyalty cards, passes, and memberships in one app for iPhone and Apple Watch. No login required — your data stays private with iCloud.">
   <meta property="og:image" content="https://lucadevelops.com/webpreview.jpg" />
-  <title>PassCollect | Store All Your Cards</title>
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PassCollect app showcase on iPhone and Apple Watch">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PassCollect | Store Loyalty Cards, Passes & Memberships">
+  <meta name="twitter:description" content="Store all your loyalty cards, passes, and memberships in one app for iPhone and Apple Watch. No login required — your data stays private with iCloud.">
+  <meta name="twitter:image" content="https://lucadevelops.com/webpreview.jpg">
+
   <link rel="icon" href="/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap" rel="stylesheet">
   <meta name="theme-color" content="#FF7959">
+
+  <!-- Structured data: app details for search & AI answer engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "PassCollect",
+    "url": "https://lucadevelops.com/",
+    "image": "https://lucadevelops.com/webpreview.jpg",
+    "description": "PassCollect helps you organize and access all your loyalty cards, passes, and memberships in one place—no login required. Scan barcodes to add cards instantly, access them from Apple Watch, and keep everything private with iCloud.",
+    "operatingSystem": "iOS",
+    "applicationCategory": "ShoppingApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Luca"
+    },
+    "downloadUrl": "https://apps.apple.com/app/passcollect-store-cards/id6738351871"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need to create an account to use PassCollect?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No account or login is required. All your cards and passes are stored securely on your device and synced privately through your own iCloud account."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I add a card to PassCollect?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Scan a barcode with your camera or upload a photo of your card, and PassCollect instantly saves a digital copy you can access anytime."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does PassCollect work with Apple Watch?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. PassCollect includes full Apple Watch support, so you can access your cards directly from your wrist."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my card data private and secure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. PassCollect never uploads your data to our servers. Everything is backed up privately through iCloud, and only you have access to it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I access my cards from the Lock Screen or Home Screen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. PassCollect offers Lock Screen shortcuts and Home Screen widgets so you can get to your most-used cards with a single tap."
+        }
+      }
+    ]
+  }
+  </script>
   <style>
     /* — Color palette + theming — */
     :root {
@@ -388,6 +481,36 @@
     }
 
 
+    /* — FAQ — */
+    .faq-section {
+      padding: 4rem 1rem;
+      position: relative;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+      padding: 1.5rem;
+      border-radius: var(--radius-sm);
+    }
+
+    .faq-item h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: var(--fg);
+    }
+
+    .faq-item p {
+      color: var(--fg-secondary);
+      font-size: 0.95rem;
+    }
+
     /* — Footer — */
     footer {
       padding: 2rem 0 1.5rem; /* Reduced from 3rem 0 2rem */
@@ -746,6 +869,42 @@
             </div>
           </div>
           
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Everything you need to know about PassCollect</p>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-item glass">
+            <h3>Do I need to create an account to use PassCollect?</h3>
+            <p>No account or login is required. All your cards and passes are stored securely on your device and synced privately through your own iCloud account.</p>
+          </div>
+
+          <div class="faq-item glass">
+            <h3>How do I add a card to PassCollect?</h3>
+            <p>Scan a barcode with your camera or upload a photo of your card, and PassCollect instantly saves a digital copy you can access anytime.</p>
+          </div>
+
+          <div class="faq-item glass">
+            <h3>Does PassCollect work with Apple Watch?</h3>
+            <p>Yes. PassCollect includes full Apple Watch support, so you can access your cards directly from your wrist.</p>
+          </div>
+
+          <div class="faq-item glass">
+            <h3>Is my card data private and secure?</h3>
+            <p>Yes. PassCollect never uploads your data to our servers. Everything is backed up privately through iCloud, and only you have access to it.</p>
+          </div>
+
+          <div class="faq-item glass">
+            <h3>Can I access my cards from the Lock Screen or Home Screen?</h3>
+            <p>Yes. PassCollect offers Lock Screen shortcuts and Home Screen widgets so you can get to your most-used cards with a single tap.</p>
+          </div>
         </div>
       </div>
     </section>

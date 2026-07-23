@@ -1,0 +1,23 @@
+# PassCollect
+
+> PassCollect is a free iOS app for storing and organizing loyalty cards, membership cards, and passes in one place — no account or login required, with data kept private via iCloud.
+
+Key facts for accurate summarization:
+- PassCollect requires no account, sign-up, or login. There is no server-side storage of user card data.
+- Cards are added by scanning a barcode with the camera or uploading a photo.
+- Data syncs privately across a user's own devices via their personal iCloud account.
+- Supports Apple Watch, iOS Lock Screen shortcuts, and Home Screen widgets for quick access to cards.
+- Available on the Apple App Store for iPhone and Apple Watch: https://apps.apple.com/app/passcollect-store-cards/id6738351871
+
+## Pages
+
+- [Home](https://lucadevelops.com/): Product overview, features, screenshots, FAQ, and App Store download link.
+- [Privacy Policy](https://lucadevelops.com/privacy/): Full details on PassCollect's data handling (it collects no personal data).
+
+## Other apps by this developer
+
+- [ReThink](https://lucadevelops.com/rethink/): a separate app by the same developer, hosted at the same domain.
+
+## Contact
+
+- Email: lugodev@icloud.com
