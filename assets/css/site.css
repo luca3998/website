@@ -276,13 +276,11 @@ p, li { text-wrap: pretty; }
 :root {
   --mesh-1: rgb(255 90 31 / .16);    /* app icon orange */
   --mesh-2: rgb(139 124 246 / .14);  /* violet from the app's card colors */
-  --mesh-3: rgb(168 162 158 / .22);  /* warm neutral */
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --mesh-1: rgb(255 106 46 / .13);
     --mesh-2: rgb(139 124 246 / .12);
-    --mesh-3: rgb(120 113 108 / .16);
   }
 }
 
@@ -294,12 +292,10 @@ p, li { text-wrap: pretty; }
 }
 .blob {
   position: absolute; width: min(70vmax, 900px); aspect-ratio: 1; border-radius: 50%;
-  --blob-color: var(--mesh-3);
   background: radial-gradient(closest-side, var(--blob-color), transparent var(--mesh-fade));
 }
 .blob-1 { --blob-color: var(--mesh-1); top: -35%; right: -18%; }
-.blob-2 { --blob-color: var(--mesh-2); top: 5%;  left: -30%; }
-.blob-3 { --blob-color: var(--mesh-3); bottom: -45%; left: 25%; }
+.blob-2 { --blob-color: var(--mesh-2); top: 0;   left: -30%; }
 
 @keyframes drift-1 {
   0%   { transform: translate3d(0, 0, 0) scale(1); }
@@ -310,10 +306,6 @@ p, li { text-wrap: pretty; }
   0%   { transform: translate3d(0, 0, 0) scale(1); }
   50%  { transform: translate3d(10%, -6%, 0) scale(.94); }
   100% { transform: translate3d(-4%, 8%, 0) scale(1.06); }
-}
-@keyframes drift-3 {
-  0%   { transform: translate3d(0, 0, 0); opacity: .7; }
-  100% { transform: translate3d(-12%, -10%, 0); opacity: 1; }
 }
 @keyframes tint {
   0%   { --blob-color: var(--mesh-1); --mesh-fade: 70%; }
@@ -346,7 +338,60 @@ p, li { text-wrap: pretty; }
   .blob { will-change: transform; }
   .blob-1 { animation: drift-1 28s ease-in-out infinite alternate, tint 34s ease-in-out infinite alternate; }
   .blob-2 { animation: drift-2 36s ease-in-out infinite alternate; }
-  .blob-3 { animation: drift-3 40s ease-in-out infinite alternate; }
   .cta-ring::before { animation: spin-angle 8s linear infinite; }
   .is-paused .blob, .is-paused .cta-ring::before { animation-play-state: paused; }
 }
+
+/* ==========================================================================
+   Phase 2 — Progressive blur
+   Usage: <div class="pblur" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+   Knobs (custom properties on .pblur):
+     --pb-dir       direction toward the strongest blur: to top | to bottom | to left | to right
+     --pb-strength  multiplier for every layer's blur radius (default 1 → 0.5px … 16px)
+     --pb-tint      color laid over the blur for legibility; also the no-backdrop-filter fallback
+   Size and position come from normal CSS (height/width/inset).
+   ========================================================================== */
+.pblur {
+  --pb-dir: to top;
+  --pb-strength: 1;
+  --pb-tint: transparent;
+  position: absolute; pointer-events: none;
+}
+.pblur > i {
+  position: absolute; inset: 0;
+  -webkit-backdrop-filter: blur(calc(var(--b) * var(--pb-strength)));
+          backdrop-filter: blur(calc(var(--b) * var(--pb-strength)));
+  -webkit-mask-image: linear-gradient(var(--pb-dir), var(--m));
+          mask-image: linear-gradient(var(--pb-dir), var(--m));
+}
+.pblur > i:nth-child(1) { --b: .5px; --m: transparent 0%, #000 14.3%, #000 28.6%, transparent 42.9%; }
+.pblur > i:nth-child(2) { --b: 1px;  --m: transparent 14.3%, #000 28.6%, #000 42.9%, transparent 57.1%; }
+.pblur > i:nth-child(3) { --b: 2px;  --m: transparent 28.6%, #000 42.9%, #000 57.1%, transparent 71.4%; }
+.pblur > i:nth-child(4) { --b: 4px;  --m: transparent 42.9%, #000 57.1%, #000 71.4%, transparent 85.7%; }
+.pblur > i:nth-child(5) { --b: 8px;  --m: transparent 57.1%, #000 71.4%, #000 85.7%, transparent 100%; }
+.pblur > i:nth-child(6) { --b: 16px; --m: transparent 71.4%, #000 85.7%, #000 100%; }
+.pblur::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(var(--pb-dir), transparent, var(--pb-tint));
+}
+/* Narrow screens: drop the two faintest layers to cut compositing cost. */
+@media (max-width: 600px) {
+  .pblur > i:nth-child(-n+2) { display: none; }
+  .pblur > i:nth-child(3) { --m: transparent 0%, #000 42.9%, #000 57.1%, transparent 71.4%; }
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .pblur > i { display: none; }
+  .pblur::after { background: linear-gradient(var(--pb-dir), transparent, var(--pb-tint-fallback, var(--bg))); }
+}
+
+/* Sticky header: content dissolves as it scrolls up underneath. */
+.pblur-header {
+  inset: 0 0 auto 0; height: calc(var(--header-h) + 28px);
+  --pb-dir: to top;
+  --pb-tint: color-mix(in srgb, var(--bg) 72%, transparent);
+}
+
+/* Screenshot strip: soft fade-blur at both scroll edges. */
+.pblur-edge { top: 0; bottom: 16px; width: clamp(20px, 6vw, 80px); --pb-strength: .75; --pb-tint: color-mix(in srgb, var(--bg) 55%, transparent); }
+.pblur-edge.start { left: 0;  --pb-dir: to left; }
+.pblur-edge.end   { right: 0; --pb-dir: to right; }
