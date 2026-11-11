@@ -110,7 +110,12 @@ p, li { text-wrap: pretty; }
 .section-head.center { margin-inline: auto; text-align: center; }
 
 /* — Hero — */
-.hero { position: relative; padding-block: clamp(40px, 8vw, 96px) clamp(48px, 8vw, 96px); isolation: isolate; }
+.hero {
+  position: relative; isolation: isolate;
+  /* Extend under the sticky header so the background runs behind it. */
+  margin-top: calc(-1 * var(--header-h));
+  padding-block: calc(var(--header-h) + clamp(40px, 8vw, 96px)) clamp(48px, 8vw, 96px);
+}
 .hero-grid {
   display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: clamp(24px, 5vw, 64px);
 }
@@ -257,3 +262,91 @@ p, li { text-wrap: pretty; }
 .site-footer a { color: var(--fg-muted); text-decoration: none; }
 .site-footer a:hover { color: var(--fg); }
 .site-footer small { color: var(--fg-muted); font-size: .875rem; }
+
+/* ==========================================================================
+   Phase 1 — Animated gradients
+   Static by default; motion only under prefers-reduced-motion: no-preference.
+   Only transform, opacity and registered custom properties are animated.
+   ========================================================================== */
+
+@property --blob-color { syntax: "<color>"; inherits: false; initial-value: transparent; }
+@property --cta-angle  { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+@property --mesh-fade  { syntax: "<percentage>"; inherits: false; initial-value: 70%; }
+
+:root {
+  --mesh-1: rgb(255 90 31 / .16);    /* app icon orange */
+  --mesh-2: rgb(139 124 246 / .14);  /* violet from the app's card colors */
+  --mesh-3: rgb(168 162 158 / .22);  /* warm neutral */
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mesh-1: rgb(255 106 46 / .13);
+    --mesh-2: rgb(139 124 246 / .12);
+    --mesh-3: rgb(120 113 108 / .16);
+  }
+}
+
+.mesh {
+  position: absolute; inset: 0; z-index: -1;
+  overflow: hidden; pointer-events: none;
+  -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent);
+          mask-image: linear-gradient(to bottom, #000 55%, transparent);
+}
+.blob {
+  position: absolute; width: min(70vmax, 900px); aspect-ratio: 1; border-radius: 50%;
+  --blob-color: var(--mesh-3);
+  background: radial-gradient(closest-side, var(--blob-color), transparent var(--mesh-fade));
+}
+.blob-1 { --blob-color: var(--mesh-1); top: -35%; right: -18%; }
+.blob-2 { --blob-color: var(--mesh-2); top: 5%;  left: -30%; }
+.blob-3 { --blob-color: var(--mesh-3); bottom: -45%; left: 25%; }
+
+@keyframes drift-1 {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  50%  { transform: translate3d(-9%, 7%, 0) scale(1.08); }
+  100% { transform: translate3d(5%, -3%, 0) scale(.95); }
+}
+@keyframes drift-2 {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  50%  { transform: translate3d(10%, -6%, 0) scale(.94); }
+  100% { transform: translate3d(-4%, 8%, 0) scale(1.06); }
+}
+@keyframes drift-3 {
+  0%   { transform: translate3d(0, 0, 0); opacity: .7; }
+  100% { transform: translate3d(-12%, -10%, 0); opacity: 1; }
+}
+@keyframes tint {
+  0%   { --blob-color: var(--mesh-1); --mesh-fade: 70%; }
+  100% { --blob-color: var(--mesh-2); --mesh-fade: 62%; }
+}
+
+/* Gradient text — hero heading only. Both stops meet WCAG AA for large text. */
+.gradient-text {
+  width: fit-content;
+  background: linear-gradient(100deg, var(--fg) 45%, var(--accent-text) 110%);
+  background: linear-gradient(in oklch 100deg, var(--fg) 45%, var(--accent-text) 110%);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent; color: transparent;
+}
+@media (max-width: 860px) { .gradient-text { margin-inline: auto; } }
+
+/* Animated gradient ring around the primary CTA (mask-composite trick). */
+.cta-ring { position: relative; isolation: isolate; }
+.cta-ring::before {
+  content: ""; position: absolute; inset: -3px; z-index: -1; border-radius: 13px; padding: 1.5px;
+  background: conic-gradient(from var(--cta-angle), var(--accent), transparent 30%, var(--mesh-2) 50%, transparent 70%, var(--accent));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  --cta-angle: 200deg;
+}
+@keyframes spin-angle { to { --cta-angle: 560deg; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .blob { will-change: transform; }
+  .blob-1 { animation: drift-1 28s ease-in-out infinite alternate, tint 34s ease-in-out infinite alternate; }
+  .blob-2 { animation: drift-2 36s ease-in-out infinite alternate; }
+  .blob-3 { animation: drift-3 40s ease-in-out infinite alternate; }
+  .cta-ring::before { animation: spin-angle 8s linear infinite; }
+  .is-paused .blob, .is-paused .cta-ring::before { animation-play-state: paused; }
+}

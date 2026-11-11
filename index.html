@@ -36,6 +36,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400..700&display=swap">
   <link rel="stylesheet" href="/assets/css/site.css">
+  <script src="/assets/js/site.js" defer></script>
   <link rel="preload" as="image" href="/images/hero-560.webp" imagesrcset="/images/hero-560.webp 560w, /images/hero-1100.webp 1100w" imagesizes="(max-width: 860px) 78vw, 440px" fetchpriority="high">
 
   <!-- Structured data: app details for search & AI answer engines -->
@@ -140,14 +141,19 @@
   </header>
 
   <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
+    <section class="hero" aria-labelledby="hero-title" data-animate>
+      <div class="mesh" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+      </div>
       <div class="wrap hero-grid">
         <div class="hero-content">
           <p class="eyebrow">For iPhone, iPhone Duo &amp; Apple Watch</p>
-          <h1 id="hero-title">Store All Your Cards</h1>
+          <h1 id="hero-title" class="gradient-text">Store All Your Cards</h1>
           <p class="hero-lede">PassCollect helps you organize and access all your loyalty cards, passes, and memberships in one place—no login required.</p>
           <div class="hero-actions">
-            <a href="https://apps.apple.com/app/passcollect-store-cards/id6738351871" class="store-badge" aria-label="Download PassCollect on the App Store">
+            <a href="https://apps.apple.com/app/passcollect-store-cards/id6738351871" class="store-badge cta-ring" aria-label="Download PassCollect on the App Store">
               <img src="/appstore.svg" alt="" width="156" height="52">
             </a>
             <span class="hero-note">Free · No account needed</span>
