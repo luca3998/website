@@ -1,4 +1,7 @@
+# All crawlers, including AI crawlers, are welcome.
 User-agent: *
 Allow: /
 
 Sitemap: https://lucadevelops.com/sitemap.xml
+
+# Machine-readable index of this site: https://lucadevelops.com/llms.txt

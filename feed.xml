@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>PassCollect Guides</title>
+  <subtitle>Step-by-step guides to PassCollect: storing loyalty cards without an account, scanning barcodes, Apple Watch, widgets, iPhone Duo and privacy.</subtitle>
+  <link href="https://lucadevelops.com/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://lucadevelops.com/blog/" rel="alternate" type="text/html"/>
+  <id>https://lucadevelops.com/blog/</id>
+  <updated>2026-11-11T00:00:00Z</updated>
+  <author><name>Luca</name><uri>https://lucadevelops.com/</uri></author>
+  <icon>https://lucadevelops.com/images/appicon-192.png</icon>
+  <entry>
+    <title>How do you store loyalty cards on iPhone without creating an account?</title>
+    <link href="https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/" rel="alternate" type="text/html"/>
+    <link href="https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/index.md" rel="alternate" type="text/markdown"/>
+    <id>https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <author><name>Luca</name><uri>https://lucadevelops.com/</uri></author>
+    <category term="getting-started" label="Getting started"/>
+    <category term="privacy" label="Privacy"/>
+    <summary>PassCollect lets you save loyalty cards, passes and memberships on your iPhone without creating an account or logging in. Your cards stay on your device and sync privately through your own iCloud account. Nothing is uploaded to PassCollect's servers.</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; PassCollect lets you save loyalty cards, passes and memberships on your iPhone without creating an account or logging in. Your cards stay on your device and sync privately through your own iCloud account. Nothing is uploaded to PassCollect's servers.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://lucadevelops.com/images/first-800.webp&quot; srcset=&quot;https://lucadevelops.com/images/first-400.webp 400w, https://lucadevelops.com/images/first-800.webp 800w&quot; sizes=&quot;(max-width: 720px) 92vw, 680px&quot; width=&quot;800&quot; height=&quot;1740&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;PassCollect card list on iPhone showing saved loyalty cards with their barcodes&quot;&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;why-skip-the-account&quot;&gt;Why skip the account?&lt;/h2&gt;
+&lt;p&gt;Most card apps ask you to sign up before you can save a single barcode. That means another password, another email address on file, and your shopping habits stored on someone else's server.&lt;/p&gt;
+&lt;p&gt;PassCollect works differently. You open the app and start adding cards. There is no sign-up screen, no login and no account to manage.&lt;/p&gt;
+&lt;h2 id=&quot;where-are-your-cards-stored&quot;&gt;Where are your cards stored?&lt;/h2&gt;
+&lt;p&gt;Your cards are stored on your iPhone and backed up through &lt;strong&gt;your own iCloud account&lt;/strong&gt;. PassCollect never uploads your card data to its servers, so only you have access to it.&lt;/p&gt;
+&lt;p&gt;Because the backup goes through iCloud, your cards are available on your other Apple devices that use the same Apple Account. You don't need a separate PassCollect login for that.&lt;/p&gt;
+&lt;p&gt;For the full details, read &lt;a href=&quot;https://lucadevelops.com/blog/passcollect-privacy-where-card-data-is-stored/&quot;&gt;where PassCollect stores your card data&lt;/a&gt; or the &lt;a href=&quot;https://lucadevelops.com/privacy/&quot;&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;how-to-get-started&quot;&gt;How to get started&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Download &lt;a href=&quot;https://apps.apple.com/app/passcollect-store-cards/id6738351871&quot; rel=&quot;noopener&quot;&gt;PassCollect from the App Store&lt;/a&gt;. It's free.&lt;/li&gt;
+&lt;li&gt;Open the app. There's no account to create.&lt;/li&gt;
+&lt;li&gt;Tap the &lt;strong&gt;+&lt;/strong&gt; button in the top-right corner to add your first card.&lt;/li&gt;
+&lt;li&gt;Scan the card's barcode with your camera or upload a photo of the card.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The step-by-step guide to &lt;a href=&quot;https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/&quot;&gt;adding a card by scanning its barcode&lt;/a&gt; covers every option on the Edit Card screen.&lt;/p&gt;
+&lt;h2 id=&quot;what-you-can-store&quot;&gt;What you can store&lt;/h2&gt;
+&lt;p&gt;PassCollect is made for anything with a barcode that you'd otherwise carry in your wallet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Supermarket and store loyalty cards&lt;/li&gt;
+&lt;li&gt;Membership cards, such as for a gym or library&lt;/li&gt;
+&lt;li&gt;Passes and other barcode cards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;getting-to-your-cards-quickly&quot;&gt;Getting to your cards quickly&lt;/h2&gt;
+&lt;p&gt;Once your cards are saved, you can open them in several ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;In the app&lt;/strong&gt;, where the card list can be searched, sorted and switched between layouts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;On Apple Watch&lt;/strong&gt;, straight from your wrist (&lt;a href=&quot;https://lucadevelops.com/blog/loyalty-cards-apple-watch/&quot;&gt;how it works&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;From the Lock Screen and Home Screen&lt;/strong&gt;, using shortcuts and widgets (&lt;a href=&quot;https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/&quot;&gt;set them up&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;frequently-asked-questions&quot;&gt;Frequently asked questions&lt;/h2&gt;
+&lt;h3 id=&quot;do-i-need-to-create-an-account-to-use-passcollect&quot;&gt;Do I need to create an account to use PassCollect?&lt;/h3&gt;
+&lt;p&gt;No. PassCollect has no sign-up and no login. You can start adding cards as soon as you open the app.&lt;/p&gt;
+&lt;h3 id=&quot;what-happens-to-my-cards-if-i-get-a-new-iphone&quot;&gt;What happens to my cards if I get a new iPhone?&lt;/h3&gt;
+&lt;p&gt;Your cards are backed up through your own iCloud account. Sign in to the same Apple Account on your new iPhone and install PassCollect.&lt;/p&gt;
+&lt;h3 id=&quot;does-passcollect-cost-anything&quot;&gt;Does PassCollect cost anything?&lt;/h3&gt;
+&lt;p&gt;PassCollect is free to download on the App Store.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>How to add a loyalty card to PassCollect by scanning its barcode</title>
+    <link href="https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/" rel="alternate" type="text/html"/>
+    <link href="https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/index.md" rel="alternate" type="text/markdown"/>
+    <id>https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <author><name>Luca</name><uri>https://lucadevelops.com/</uri></author>
+    <category term="getting-started" label="Getting started"/>
+    <summary>To add a card in PassCollect, tap the + button and either scan the card's barcode with your iPhone camera or upload a photo of the card. You can then edit the card's name, number, logo, barcode type and color, and attach photos of the front and back.</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; To add a card in PassCollect, tap the + button and either scan the card's barcode with your iPhone camera or upload a photo of the card. You can then edit the card's name, number, logo, barcode type and color, and attach photos of the front and back.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://lucadevelops.com/images/instant-scanning-800.webp&quot; srcset=&quot;https://lucadevelops.com/images/instant-scanning-400.webp 400w, https://lucadevelops.com/images/instant-scanning-800.webp 800w&quot; sizes=&quot;(max-width: 720px) 92vw, 680px&quot; width=&quot;800&quot; height=&quot;1740&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Scanning a card's barcode in PassCollect, followed by the Edit Card screen with name, number, logo, barcode type and color&quot;&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;what-you-need&quot;&gt;What you need&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PassCollect installed on your iPhone (&lt;a href=&quot;https://apps.apple.com/app/passcollect-store-cards/id6738351871&quot; rel=&quot;noopener&quot;&gt;download it free&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;The physical card, or a photo of it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You don't need an account. See &lt;a href=&quot;https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/&quot;&gt;why PassCollect works without one&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;step-1-scan-the-barcode&quot;&gt;Step 1: Scan the barcode&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open PassCollect and tap the &lt;strong&gt;+&lt;/strong&gt; button in the top-right corner of the card list.&lt;/li&gt;
+&lt;li&gt;Point your camera at the card's barcode. PassCollect reads it instantly.&lt;/li&gt;
+&lt;li&gt;If you don't have the card with you, upload a photo of it instead.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;PassCollect allows camera access only so it can scan inside the app. No images or data leave your device. See the &lt;a href=&quot;https://lucadevelops.com/privacy/&quot;&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;step-2-check-the-card-details&quot;&gt;Step 2: Check the card details&lt;/h2&gt;
+&lt;p&gt;After scanning, the &lt;strong&gt;Edit Card&lt;/strong&gt; screen opens with a live preview of your card at the top. Under &lt;strong&gt;Card details&lt;/strong&gt;, you can change:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th scope=&quot;col&quot;&gt;Field&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;What it's for&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;The label shown on the card, such as the store's name&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Number&lt;/td&gt;&lt;td&gt;The number encoded in the barcode, filled in from the scan&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Logo&lt;/td&gt;&lt;td&gt;An optional logo for the card&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Barcode Type&lt;/td&gt;&lt;td&gt;The barcode format, for example Code 128&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Card color&lt;/td&gt;&lt;td&gt;The color of the card in your list&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Tap &lt;strong&gt;Done&lt;/strong&gt; to save the card.&lt;/p&gt;
+&lt;h2 id=&quot;step-3-optional-add-front-and-back-images&quot;&gt;Step 3 (optional): Add front and back images&lt;/h2&gt;
+&lt;p&gt;Some cards have useful information printed on them, like a member number or an expiry date. In the &lt;strong&gt;Images&lt;/strong&gt; section of the Edit Card screen, you can add a &lt;strong&gt;Front&lt;/strong&gt; and a &lt;strong&gt;Back&lt;/strong&gt; image. Each one can come from the camera or from your photo library. Tap the trash icon under an image to remove it.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://lucadevelops.com/images/card-images-800.webp&quot; srcset=&quot;https://lucadevelops.com/images/card-images-400.webp 400w, https://lucadevelops.com/images/card-images-800.webp 800w&quot; sizes=&quot;(max-width: 720px) 92vw, 680px&quot; width=&quot;800&quot; height=&quot;1740&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Edit Card screen with front and back images of a card in PassCollect&quot;&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;tips-for-a-clean-scan&quot;&gt;Tips for a clean scan&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hold the phone steady and parallel to the card.&lt;/li&gt;
+&lt;li&gt;Make sure the whole barcode is in view and well lit.&lt;/li&gt;
+&lt;li&gt;If a scan picks the wrong format, change &lt;strong&gt;Barcode Type&lt;/strong&gt; on the Edit Card screen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;what-to-do-next&quot;&gt;What to do next&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://lucadevelops.com/blog/loyalty-cards-apple-watch/&quot;&gt;Show the card on your Apple Watch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/&quot;&gt;Add a Lock Screen shortcut or Home Screen widget&lt;/a&gt; so the card is one tap away&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>How to open a loyalty card with one tap from your Lock Screen or Home Screen</title>
+    <link href="https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/" rel="alternate" type="text/html"/>
+    <link href="https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/index.md" rel="alternate" type="text/markdown"/>
+    <id>https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <author><name>Luca</name><uri>https://lucadevelops.com/</uri></author>
+    <category term="widgets" label="Widgets &amp; shortcuts"/>
+    <category term="getting-started" label="Getting started"/>
+    <summary>PassCollect has Lock Screen shortcuts and Home Screen widgets that open your most-used cards with a single tap. One widget shows a card's barcode right on the Home Screen. Another gives you buttons for several cards at once.</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; PassCollect has Lock Screen shortcuts and Home Screen widgets that open your most-used cards with a single tap. One widget shows a card's barcode right on the Home Screen. Another gives you buttons for several cards at once.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://lucadevelops.com/images/widgets-800.webp&quot; srcset=&quot;https://lucadevelops.com/images/widgets-400.webp 400w, https://lucadevelops.com/images/widgets-800.webp 800w&quot; sizes=&quot;(max-width: 720px) 92vw, 680px&quot; width=&quot;800&quot; height=&quot;1740&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Two PassCollect Home Screen widgets on iPhone, one showing a card's barcode and one with buttons for three cards&quot;&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;which-quick-access-options-are-there&quot;&gt;Which quick-access options are there?&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th scope=&quot;col&quot;&gt;Option&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;Where it lives&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;What it does&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Shortcut&lt;/td&gt;&lt;td&gt;Lock Screen&lt;/td&gt;&lt;td&gt;Opens PassCollect with one tap, without unlocking first&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Single-card widget&lt;/td&gt;&lt;td&gt;Home Screen&lt;/td&gt;&lt;td&gt;Shows one card's barcode directly on the Home Screen&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Multi-card widget&lt;/td&gt;&lt;td&gt;Home Screen&lt;/td&gt;&lt;td&gt;Shows buttons for several cards, each one tap away&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;add-a-passcollect-widget-to-your-home-screen&quot;&gt;Add a PassCollect widget to your Home Screen&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Touch and hold an empty area of your Home Screen until the apps jiggle.&lt;/li&gt;
+&lt;li&gt;Tap &lt;strong&gt;Edit&lt;/strong&gt;, then &lt;strong&gt;Add Widget&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Search for &lt;strong&gt;PassCollect&lt;/strong&gt; and choose a widget. The &lt;strong&gt;single-card widget&lt;/strong&gt; shows a card's name and barcode. The &lt;strong&gt;multi-card widget&lt;/strong&gt; shows buttons for several cards.&lt;/li&gt;
+&lt;li&gt;Tap &lt;strong&gt;Add Widget&lt;/strong&gt;, place it where you like, and tap &lt;strong&gt;Done&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;add-a-passcollect-shortcut-to-your-lock-screen&quot;&gt;Add a PassCollect shortcut to your Lock Screen&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Touch and hold your Lock Screen, then tap &lt;strong&gt;Customize&lt;/strong&gt; and choose &lt;strong&gt;Lock Screen&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Tap one of the shortcut buttons at the bottom of the screen to replace it.&lt;/li&gt;
+&lt;li&gt;Search for &lt;strong&gt;PassCollect&lt;/strong&gt; and select it.&lt;/li&gt;
+&lt;li&gt;Tap &lt;strong&gt;Done&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can also add the same control to &lt;strong&gt;Control Center&lt;/strong&gt;.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://lucadevelops.com/images/shortcuts-800.webp&quot; srcset=&quot;https://lucadevelops.com/images/shortcuts-400.webp 400w, https://lucadevelops.com/images/shortcuts-800.webp 800w&quot; sizes=&quot;(max-width: 720px) 92vw, 680px&quot; width=&quot;800&quot; height=&quot;1740&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;PassCollect shortcut on the iPhone Lock Screen and in Control Center&quot;&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;which-cards-should-you-put-there&quot;&gt;Which cards should you put there?&lt;/h2&gt;
+&lt;p&gt;Keep the cards you use every week in widgets and shortcuts, like your supermarket or gym card. Cards you rarely need can stay in the app, where you can search and sort the full list.&lt;/p&gt;
+&lt;h2 id=&quot;related-guides&quot;&gt;Related guides&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/&quot;&gt;Add a card by scanning its barcode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lucadevelops.com/blog/loyalty-cards-apple-watch/&quot;&gt;Show your cards on Apple Watch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;frequently-asked-questions&quot;&gt;Frequently asked questions&lt;/h2&gt;
+&lt;h3 id=&quot;can-i-access-my-cards-from-the-lock-screen-or-home-screen&quot;&gt;Can I access my cards from the Lock Screen or Home Screen?&lt;/h3&gt;
+&lt;p&gt;Yes. PassCollect offers Lock Screen shortcuts and Home Screen widgets so you can get to your most-used cards with a single tap.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>How to show your loyalty cards on Apple Watch with PassCollect</title>
+    <link href="https://lucadevelops.com/blog/loyalty-cards-apple-watch/" rel="alternate" type="text/html"/>
+    <link href="https://lucadevelops.com/blog/loyalty-cards-apple-watch/index.md" rel="alternate" type="text/markdown"/>
+    <id>https://lucadevelops.com/blog/loyalty-cards-apple-watch/</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <author><name>Luca</name><uri>https://lucadevelops.com/</uri></author>
+    <category term="apple-watch" label="Apple Watch"/>
+    <summary>PassCollect includes full Apple Watch support. The watch app shows your cards with their barcodes, so you can scan a loyalty card at checkout straight from your wrist without taking out your iPhone.</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; PassCollect includes full Apple Watch support. The watch app shows your cards with their barcodes, so you can scan a loyalty card at checkout straight from your wrist without taking out your iPhone.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://lucadevelops.com/images/apple-watch-800.webp&quot; srcset=&quot;https://lucadevelops.com/images/apple-watch-400.webp 400w, https://lucadevelops.com/images/apple-watch-800.webp 800w&quot; sizes=&quot;(max-width: 720px) 92vw, 680px&quot; width=&quot;800&quot; height=&quot;1740&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;PassCollect on Apple Watch showing a card's barcode, next to the same card list on iPhone&quot;&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;why-use-your-watch-for-loyalty-cards&quot;&gt;Why use your watch for loyalty cards?&lt;/h2&gt;
+&lt;p&gt;At a busy checkout, you often have your hands full. Showing a barcode from your wrist means you don't need to unlock your phone, find the app and scroll to the right card.&lt;/p&gt;
+&lt;h2 id=&quot;what-the-apple-watch-app-shows&quot;&gt;What the Apple Watch app shows&lt;/h2&gt;
+&lt;p&gt;The PassCollect watch app opens to a &lt;strong&gt;Cards&lt;/strong&gt; list. Each card appears the way it does on iPhone, with its name, color and barcode. Scroll to see your other cards.&lt;/p&gt;
+&lt;h2 id=&quot;how-to-set-it-up&quot;&gt;How to set it up&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Install &lt;a href=&quot;https://apps.apple.com/app/passcollect-store-cards/id6738351871&quot; rel=&quot;noopener&quot;&gt;PassCollect on your iPhone&lt;/a&gt; and add your cards (&lt;a href=&quot;https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/&quot;&gt;here's how&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Install the PassCollect watch app. On your iPhone, open the &lt;strong&gt;Watch&lt;/strong&gt; app, find PassCollect under &lt;strong&gt;Available Apps&lt;/strong&gt;, and tap &lt;strong&gt;Install&lt;/strong&gt;. You can also install it from the App Store on your watch.&lt;/li&gt;
+&lt;li&gt;Open PassCollect on your Apple Watch to see your cards.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;using-it-at-checkout&quot;&gt;Using it at checkout&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open PassCollect on your watch.&lt;/li&gt;
+&lt;li&gt;Scroll to the card you need.&lt;/li&gt;
+&lt;li&gt;Hold the watch face up to the scanner so the barcode is visible.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Turn your watch screen brightness up if scanners have trouble reading it.&lt;/p&gt;
+&lt;h2 id=&quot;other-ways-to-reach-a-card-quickly&quot;&gt;Other ways to reach a card quickly&lt;/h2&gt;
+&lt;p&gt;If you'd rather use your iPhone, &lt;a href=&quot;https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/&quot;&gt;Lock Screen shortcuts and Home Screen widgets&lt;/a&gt; get you to a card with one tap.&lt;/p&gt;
+&lt;h2 id=&quot;frequently-asked-questions&quot;&gt;Frequently asked questions&lt;/h2&gt;
+&lt;h3 id=&quot;does-passcollect-work-with-apple-watch&quot;&gt;Does PassCollect work with Apple Watch?&lt;/h3&gt;
+&lt;p&gt;Yes. PassCollect includes full Apple Watch support, so you can access your cards directly from your wrist.&lt;/p&gt;
+&lt;h3 id=&quot;do-i-need-an-account-to-use-passcollect-on-apple-watch&quot;&gt;Do I need an account to use PassCollect on Apple Watch?&lt;/h3&gt;
+&lt;p&gt;No. PassCollect never requires an account, on iPhone or on Apple Watch.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Using PassCollect on iPhone Duo — folded and unfolded layouts</title>
+    <link href="https://lucadevelops.com/blog/passcollect-iphone-duo/" rel="alternate" type="text/html"/>
+    <link href="https://lucadevelops.com/blog/passcollect-iphone-duo/index.md" rel="alternate" type="text/markdown"/>
+    <id>https://lucadevelops.com/blog/passcollect-iphone-duo/</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <author><name>Luca</name><uri>https://lucadevelops.com/</uri></author>
+    <category term="iphone-duo" label="iPhone Duo"/>
+    <summary>PassCollect supports iPhone Duo and adapts its layout to the screen you're using. Folded, your cards sit in a compact two-column grid. Unfolded, they spread across three columns, with pinned cards at the top and the toolbar always in reach.</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; PassCollect supports iPhone Duo and adapts its layout to the screen you're using. Folded, your cards sit in a compact two-column grid. Unfolded, they spread across three columns, with pinned cards at the top and the toolbar always in reach.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://lucadevelops.com/images/duo-1600.webp&quot; srcset=&quot;https://lucadevelops.com/images/duo-900.webp 900w, https://lucadevelops.com/images/duo-1600.webp 1600w&quot; sizes=&quot;(max-width: 720px) 92vw, 680px&quot; width=&quot;1600&quot; height=&quot;730&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;PassCollect on iPhone Duo, folded with a two-column card grid and unfolded with three columns&quot;&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;does-passcollect-support-iphone-duo&quot;&gt;Does PassCollect support iPhone Duo?&lt;/h2&gt;
+&lt;p&gt;Yes. PassCollect's layout adapts to iPhone Duo, so your cards fit the screen whether the phone is folded or unfolded.&lt;/p&gt;
+&lt;h2 id=&quot;how-the-layout-changes&quot;&gt;How the layout changes&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th scope=&quot;col&quot;&gt;&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;Folded&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;Unfolded&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;th scope=&quot;row&quot;&gt;Card grid&lt;/th&gt;&lt;td&gt;Two columns&lt;/td&gt;&lt;td&gt;Three columns&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th scope=&quot;row&quot;&gt;Pinned cards&lt;/th&gt;&lt;td&gt;At the top&lt;/td&gt;&lt;td&gt;At the top&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th scope=&quot;row&quot;&gt;Toolbar&lt;/th&gt;&lt;td&gt;Along the side&lt;/td&gt;&lt;td&gt;Along the side&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th scope=&quot;row&quot;&gt;Search&lt;/th&gt;&lt;td&gt;Bottom of the toolbar&lt;/td&gt;&lt;td&gt;Bottom of the toolbar&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;folded&quot;&gt;Folded&lt;/h3&gt;
+&lt;p&gt;When iPhone Duo is folded, PassCollect uses a compact two-column grid. You can see several cards at once without scrolling.&lt;/p&gt;
+&lt;h3 id=&quot;unfolded&quot;&gt;Unfolded&lt;/h3&gt;
+&lt;p&gt;When you unfold the phone, the same cards spread out across the wider display. With three cards per row, more of your collection fits on one screen.&lt;/p&gt;
+&lt;h2 id=&quot;pinned-cards-stay-on-top&quot;&gt;Pinned cards stay on top&lt;/h2&gt;
+&lt;p&gt;In both layouts, your &lt;strong&gt;pinned cards&lt;/strong&gt; appear at the top of the list, so your favorites are the first thing you see whichever way you hold the phone.&lt;/p&gt;
+&lt;h2 id=&quot;the-toolbar-is-always-in-reach&quot;&gt;The toolbar is always in reach&lt;/h2&gt;
+&lt;p&gt;On iPhone Duo, PassCollect's controls sit in a toolbar along the side of the screen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Settings&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Layout&lt;/strong&gt;, to switch how your cards are shown&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sort&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add&lt;/strong&gt;, to save a new card (&lt;a href=&quot;https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/&quot;&gt;how to add a card&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search&lt;/strong&gt;, at the bottom&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;everything-else-works-the-same&quot;&gt;Everything else works the same&lt;/h2&gt;
+&lt;p&gt;All of PassCollect's features work on iPhone Duo too:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/&quot;&gt;No account required&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lucadevelops.com/blog/loyalty-cards-apple-watch/&quot;&gt;Apple Watch support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/&quot;&gt;Lock Screen shortcuts and Home Screen widgets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Where is my card data stored? PassCollect's privacy model explained</title>
+    <link href="https://lucadevelops.com/blog/passcollect-privacy-where-card-data-is-stored/" rel="alternate" type="text/html"/>
+    <link href="https://lucadevelops.com/blog/passcollect-privacy-where-card-data-is-stored/index.md" rel="alternate" type="text/markdown"/>
+    <id>https://lucadevelops.com/blog/passcollect-privacy-where-card-data-is-stored/</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <author><name>Luca</name><uri>https://lucadevelops.com/</uri></author>
+    <category term="privacy" label="Privacy"/>
+    <summary>PassCollect stores your cards on your iPhone and backs them up through your own iCloud account. It never uploads card data to its servers, and it doesn't use analytics or third-party services that collect data. There's no account, so there's no profile to collect either.</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Summary:&lt;/strong&gt; PassCollect stores your cards on your iPhone and backs them up through your own iCloud account. It never uploads card data to its servers, and it doesn't use analytics or third-party services that collect data. There's no account, so there's no profile to collect either.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://lucadevelops.com/images/first-800.webp&quot; srcset=&quot;https://lucadevelops.com/images/first-400.webp 400w, https://lucadevelops.com/images/first-800.webp 800w&quot; sizes=&quot;(max-width: 720px) 92vw, 680px&quot; width=&quot;800&quot; height=&quot;1740&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;PassCollect card list on iPhone with saved loyalty cards&quot;&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;the-short-version&quot;&gt;The short version&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th scope=&quot;col&quot;&gt;Question&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;Answer&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Do I need an account?&lt;/td&gt;&lt;td&gt;No. There's no sign-up or login.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Where are my cards stored?&lt;/td&gt;&lt;td&gt;On your device, backed up through your own iCloud account&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Does PassCollect upload my cards to its servers?&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Does PassCollect use analytics or third-party trackers?&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Who can see my cards?&lt;/td&gt;&lt;td&gt;Only you&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;where-your-cards-live&quot;&gt;Where your cards live&lt;/h2&gt;
+&lt;p&gt;When you add a card, PassCollect saves it &lt;strong&gt;on your iPhone&lt;/strong&gt;. It's backed up through &lt;strong&gt;your personal iCloud account&lt;/strong&gt;, the same one that backs up your photos and notes. That backup keeps your cards available if you switch to a new iPhone.&lt;/p&gt;
+&lt;p&gt;PassCollect never uploads your card information to its own servers. There's no copy of your cards anywhere except your devices and your iCloud.&lt;/p&gt;
+&lt;h2 id=&quot;what-passcollect-does-not-collect&quot;&gt;What PassCollect does not collect&lt;/h2&gt;
+&lt;p&gt;According to the &lt;a href=&quot;https://lucadevelops.com/privacy/&quot;&gt;PassCollect privacy policy&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It does not collect, store or share any personal or non-personal information from users.&lt;/li&gt;
+&lt;li&gt;It does not integrate with third-party services, analytics tools or external APIs that collect user data.&lt;/li&gt;
+&lt;li&gt;It does not collect any data from anyone, including children under 13.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;why-does-passcollect-ask-for-camera-access&quot;&gt;Why does PassCollect ask for camera access?&lt;/h2&gt;
+&lt;p&gt;PassCollect may ask for permissions such as camera access so it can do its job. For example, it uses the camera to &lt;a href=&quot;https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/&quot;&gt;scan a card's barcode&lt;/a&gt; or take a photo of the card. These permissions are used only inside the app, and no data is sent or stored outside your device.&lt;/p&gt;
+&lt;h2 id=&quot;why-there-s-no-account&quot;&gt;Why there's no account&lt;/h2&gt;
+&lt;p&gt;An account would mean storing an email address, a password and your list of cards on a server. PassCollect skips all of that. Read more about &lt;a href=&quot;https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/&quot;&gt;using PassCollect without an account&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;frequently-asked-questions&quot;&gt;Frequently asked questions&lt;/h2&gt;
+&lt;h3 id=&quot;is-my-card-data-private-and-secure&quot;&gt;Is my card data private and secure?&lt;/h3&gt;
+&lt;p&gt;Yes. PassCollect never uploads your data to its servers. Everything is backed up privately through iCloud, and only you have access to it.&lt;/p&gt;
+&lt;h3 id=&quot;can-the-developer-see-my-cards&quot;&gt;Can the developer see my cards?&lt;/h3&gt;
+&lt;p&gt;No. Your cards are never sent to PassCollect's servers, so there's nothing for the developer to see.&lt;/p&gt;</content>
+  </entry>
+</feed>

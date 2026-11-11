@@ -2,12 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lucadevelops.com/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/loyalty-cards-apple-watch/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/passcollect-iphone-duo/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/passcollect-privacy-where-card-data-is-stored/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/tags/apple-watch/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/tags/getting-started/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/tags/iphone-duo/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/tags/privacy/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://lucadevelops.com/blog/tags/widgets/</loc>
+    <lastmod>2026-11-11</lastmod>
   </url>
   <url>
     <loc>https://lucadevelops.com/privacy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <lastmod>2026-11-11</lastmod>
   </url>
 </urlset>

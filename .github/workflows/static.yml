@@ -31,6 +31,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Full history so the build can read last-modified dates from git
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build blog, feed, sitemap and llms.txt
+        run: node scripts/build.mjs
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

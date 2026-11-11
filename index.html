@@ -9,6 +9,8 @@
   <meta name="robots" content="index, follow">
   <meta name="author" content="Luca">
   <link rel="canonical" href="https://lucadevelops.com/">
+  <link rel="alternate" type="text/markdown" href="/index.md" title="Markdown version">
+  <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="PassCollect Guides">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -39,7 +41,29 @@
   <script src="/assets/js/site.js" defer></script>
   <link rel="preload" as="image" href="/images/hero-560.webp" imagesrcset="/images/hero-560.webp 560w, /images/hero-1100.webp 1100w" imagesizes="(max-width: 860px) 78vw, 440px" fetchpriority="high">
 
-  <!-- Structured data: app details for search & AI answer engines -->
+  <!-- Structured data: site, author and app details for search & AI answer engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://lucadevelops.com/#website",
+        "url": "https://lucadevelops.com/",
+        "name": "PassCollect",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://lucadevelops.com/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://lucadevelops.com/#person",
+        "name": "Luca",
+        "url": "https://lucadevelops.com/",
+        "email": "mailto:lugodev@icloud.com"
+      }
+    ]
+  }
+  </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -57,8 +81,18 @@
     },
     "author": {
       "@type": "Person",
-      "name": "Luca"
+      "@id": "https://lucadevelops.com/#person",
+      "name": "Luca",
+      "url": "https://lucadevelops.com/"
     },
+    "screenshot": [
+      "https://lucadevelops.com/images/first-800.webp",
+      "https://lucadevelops.com/images/instant-scanning-800.webp",
+      "https://lucadevelops.com/images/card-images-800.webp",
+      "https://lucadevelops.com/images/apple-watch-800.webp",
+      "https://lucadevelops.com/images/shortcuts-800.webp",
+      "https://lucadevelops.com/images/widgets-800.webp"
+    ],
     "downloadUrl": "https://apps.apple.com/app/passcollect-store-cards/id6738351871"
   }
   </script>
@@ -134,7 +168,8 @@
         <ul>
           <li class="hide-sm"><a href="#features">Features</a></li>
           <li class="hide-sm"><a href="#duo">iPhone Duo</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li><a href="/blog/">Guides</a></li>
+          <li class="hide-sm"><a href="#faq">FAQ</a></li>
           <li><a class="nav-cta" href="https://apps.apple.com/app/passcollect-store-cards/id6738351871">Download</a></li>
         </ul>
       </nav>
@@ -290,6 +325,63 @@
       </div>
     </section>
 
+    <section class="section" id="guides" aria-labelledby="guides-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Guides</p>
+          <h2 id="guides-title">Get more out of PassCollect</h2>
+          <p>Step-by-step guides to scanning cards, Apple Watch, widgets, iPhone Duo and privacy.</p>
+        </div>
+        <!-- guides:start -->
+        <ul class="post-list">
+        <li>
+          <a class="post-link" href="/blog/store-loyalty-cards-iphone-without-account/">
+            <h3>How do you store loyalty cards on iPhone without creating an account?</h3>
+            <time datetime="2026-11-11">11 November 2026</time>
+            <p class="post-summary">Use PassCollect to keep loyalty cards, passes and memberships on your iPhone with no sign-up or login. Your cards stay on your device and in your own iCloud.</p>
+          </a>
+        </li>
+        <li>
+          <a class="post-link" href="/blog/add-loyalty-card-scan-barcode/">
+            <h3>How to add a loyalty card to PassCollect by scanning its barcode</h3>
+            <time datetime="2026-11-11">11 November 2026</time>
+            <p class="post-summary">Step-by-step guide to adding a loyalty card in PassCollect by scanning the barcode or uploading a photo, then setting its name, logo, barcode type, color and images.</p>
+          </a>
+        </li>
+        <li>
+          <a class="post-link" href="/blog/lock-screen-shortcuts-home-screen-widgets/">
+            <h3>How to open a loyalty card with one tap from your Lock Screen or Home Screen</h3>
+            <time datetime="2026-11-11">11 November 2026</time>
+            <p class="post-summary">Set up PassCollect Lock Screen shortcuts and Home Screen widgets to open your most-used loyalty cards with a single tap on iPhone.</p>
+          </a>
+        </li>
+        <li>
+          <a class="post-link" href="/blog/loyalty-cards-apple-watch/">
+            <h3>How to show your loyalty cards on Apple Watch with PassCollect</h3>
+            <time datetime="2026-11-11">11 November 2026</time>
+            <p class="post-summary">PassCollect includes Apple Watch support, so you can open a loyalty card's barcode from your wrist at checkout without taking out your iPhone.</p>
+          </a>
+        </li>
+        <li>
+          <a class="post-link" href="/blog/passcollect-iphone-duo/">
+            <h3>Using PassCollect on iPhone Duo — folded and unfolded layouts</h3>
+            <time datetime="2026-11-11">11 November 2026</time>
+            <p class="post-summary">PassCollect adapts its card layout to iPhone Duo, showing a compact two-column grid when folded and a wide three-column view when unfolded.</p>
+          </a>
+        </li>
+        <li>
+          <a class="post-link" href="/blog/passcollect-privacy-where-card-data-is-stored/">
+            <h3>Where is my card data stored? PassCollect's privacy model explained</h3>
+            <time datetime="2026-11-11">11 November 2026</time>
+            <p class="post-summary">PassCollect doesn't collect, store or share your data. Cards live on your iPhone and are backed up through your own iCloud account, with no servers, analytics or third parties involved.</p>
+          </a>
+        </li>
+        </ul>
+        <!-- guides:end -->
+        <a class="more-link" href="/blog/">All guides →</a>
+      </div>
+    </section>
+
     <section class="section" id="faq" aria-labelledby="faq-title">
       <div class="wrap">
         <div class="section-head center">
@@ -335,8 +427,10 @@
         PassCollect
       </a>
       <ul>
+        <li><a href="/blog/">Guides</a></li>
         <li><a href="/privacy/">Privacy Policy</a></li>
         <li><a href="mailto:lugodev@icloud.com">Contact Us</a></li>
+        <li><a href="/feed.xml">Feed</a></li>
       </ul>
       <small>© 2025 PassCollect. All rights reserved.</small>
     </div>

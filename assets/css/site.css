@@ -395,3 +395,16 @@ p, li { text-wrap: pretty; }
 .pblur-edge { top: 0; bottom: 16px; width: clamp(20px, 6vw, 80px); --pb-strength: .75; --pb-tint: color-mix(in srgb, var(--bg) 55%, transparent); }
 .pblur-edge.start { left: 0;  --pb-dir: to left; }
 .pblur-edge.end   { right: 0; --pb-dir: to right; }
+
+/* — List components inside .prose: opt out of prose list/heading spacing — */
+.prose .post-list, .prose .tag-list, .breadcrumbs ol { padding-left: 0; }
+.prose .post-list li + li, .prose .tag-list li + li, .breadcrumbs li + li { margin-top: 0; }
+.post-list h2, .post-list h3 { margin-top: 0; }
+.prose h2.eyebrow { font-size: .8125rem; letter-spacing: .08em; margin-top: 2.5em; }
+.prose h2.eyebrow + .tag-list { margin-top: 12px; }
+.prose .post-list { margin-top: 32px; }
+.prose .post-list p.post-summary { font-size: .9688rem; }
+@media (max-width: 560px) {
+  .post-list a.post-link { grid-template-columns: 1fr; }
+  .post-list time { grid-row: 2; }
+}
