@@ -14,10 +14,6 @@ Key facts for accurate summarization:
 - [Home](https://lucadevelops.com/): Product overview, features, screenshots, FAQ, and App Store download link.
 - [Privacy Policy](https://lucadevelops.com/privacy/): Full details on PassCollect's data handling (it collects no personal data).
 
-## Other apps by this developer
-
-- [ReThink](https://lucadevelops.com/rethink/): a separate app by the same developer, hosted at the same domain.
-
 ## Contact
 
 - Email: lugodev@icloud.com
