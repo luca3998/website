@@ -88,15 +88,15 @@ Swipe through to explore the app's features
 
 Step-by-step guides to scanning cards, Apple Watch, widgets, iPhone Duo and privacy.
 
-- [How do you store loyalty cards on iPhone without creating an account?](https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/): Use PassCollect to keep loyalty cards, passes and memberships on your iPhone with no sign-up or login. Your cards stay on your device and in your own iCloud.
-
-- [How to add a loyalty card to PassCollect by scanning its barcode](https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/): Step-by-step guide to adding a loyalty card in PassCollect by scanning the barcode or uploading a photo, then setting its name, logo, barcode type, color and images.
+- [Using PassCollect on iPhone Duo — folded and unfolded layouts](https://lucadevelops.com/blog/passcollect-iphone-duo/): PassCollect adapts its card layout to iPhone Duo, showing a compact two-column grid when folded and a wide three-column view when unfolded.
 
 - [How to open a loyalty card with one tap from your Lock Screen or Home Screen](https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/): Set up PassCollect Lock Screen shortcuts and Home Screen widgets to open your most-used loyalty cards with a single tap on iPhone.
 
 - [How to show your loyalty cards on Apple Watch with PassCollect](https://lucadevelops.com/blog/loyalty-cards-apple-watch/): PassCollect includes Apple Watch support, so you can open a loyalty card's barcode from your wrist at checkout without taking out your iPhone.
 
-- [Using PassCollect on iPhone Duo — folded and unfolded layouts](https://lucadevelops.com/blog/passcollect-iphone-duo/): PassCollect adapts its card layout to iPhone Duo, showing a compact two-column grid when folded and a wide three-column view when unfolded.
+- [How to add a loyalty card to PassCollect by scanning its barcode](https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/): Step-by-step guide to adding a loyalty card in PassCollect by scanning the barcode or uploading a photo, then setting its name, logo, barcode type, color and images.
+
+- [How do you store loyalty cards on iPhone without creating an account?](https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/): Use PassCollect to keep loyalty cards, passes and memberships on your iPhone with no sign-up or login. Your cards stay on your device and in your own iCloud.
 
 - [Where is my card data stored? PassCollect's privacy model explained](https://lucadevelops.com/blog/passcollect-privacy-where-card-data-is-stored/): PassCollect doesn't collect, store or share your data. Cards live on your iPhone and are backed up through your own iCloud account, with no servers, analytics or third parties involved.
 
@@ -170,13 +170,227 @@ updated date will be indicated at the top of this policy.
 
 ---
 
+# Using PassCollect on iPhone Duo — folded and unfolded layouts
+
+> PassCollect supports iPhone Duo and adapts its layout to the screen you're using. Folded, your cards sit in a compact two-column grid. Unfolded, they spread across three columns, with pinned cards at the top and the toolbar always in reach.
+
+- Author: [Luca](https://lucadevelops.com/)
+- Published: 2026-11-11
+- Updated: 2026-11-11
+- Tags: iPhone Duo
+- Canonical: https://lucadevelops.com/blog/passcollect-iphone-duo/
+
+## Does PassCollect support iPhone Duo?
+
+Yes. PassCollect's layout adapts to iPhone Duo, so your cards fit the screen whether the phone is folded or unfolded.
+
+## How the layout changes
+
+| | Folded | Unfolded |
+|---|---|---|
+| Card grid | Two columns | Three columns |
+| Pinned cards | At the top | At the top |
+| Toolbar | Along the side | Along the side |
+| Search | Bottom of the toolbar | Bottom of the toolbar |
+
+### Folded
+
+When iPhone Duo is folded, PassCollect uses a compact two-column grid. You can see several cards at once without scrolling.
+
+### Unfolded
+
+When you unfold the phone, the same cards spread out across the wider display. With three cards per row, more of your collection fits on one screen.
+
+## Pinned cards stay on top
+
+In both layouts, your **pinned cards** appear at the top of the list, so your favorites are the first thing you see whichever way you hold the phone.
+
+## The toolbar is always in reach
+
+On iPhone Duo, PassCollect's controls sit in a toolbar along the side of the screen:
+
+- **Settings**
+- **Layout**, to switch how your cards are shown
+- **Sort**
+- **Add**, to save a new card ([how to add a card](https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/))
+- **Search**, at the bottom
+
+## Everything else works the same
+
+All of PassCollect's features work on iPhone Duo too:
+
+- [No account required](https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/)
+- [Apple Watch support](https://lucadevelops.com/blog/loyalty-cards-apple-watch/)
+- [Lock Screen shortcuts and Home Screen widgets](https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/)
+
+---
+
+# How to open a loyalty card with one tap from your Lock Screen or Home Screen
+
+> PassCollect has Lock Screen shortcuts and Home Screen widgets that open your most-used cards with a single tap. One widget shows a card's barcode right on the Home Screen. Another gives you buttons for several cards at once.
+
+- Author: [Luca](https://lucadevelops.com/)
+- Published: 2026-11-04
+- Updated: 2026-11-04
+- Tags: Widgets & shortcuts, Getting started
+- Canonical: https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/
+
+## Which quick-access options are there?
+
+| Option | Where it lives | What it does |
+|---|---|---|
+| Shortcut | Lock Screen | Opens PassCollect with one tap, without unlocking first |
+| Single-card widget | Home Screen | Shows one card's barcode directly on the Home Screen |
+| Multi-card widget | Home Screen | Shows buttons for several cards, each one tap away |
+
+## Add a PassCollect widget to your Home Screen
+
+1. Touch and hold an empty area of your Home Screen until the apps jiggle.
+2. Tap **Edit**, then **Add Widget**.
+3. Search for **PassCollect** and choose a widget. The **single-card widget** shows a card's name and barcode. The **multi-card widget** shows buttons for several cards.
+4. Tap **Add Widget**, place it where you like, and tap **Done**.
+
+## Add a PassCollect shortcut to your Lock Screen
+
+1. Touch and hold your Lock Screen, then tap **Customize** and choose **Lock Screen**.
+2. Tap one of the shortcut buttons at the bottom of the screen to replace it.
+3. Search for **PassCollect** and select it.
+4. Tap **Done**.
+
+You can also add the same control to **Control Center**.
+
+![PassCollect shortcut on the iPhone Lock Screen and in Control Center](https://lucadevelops.com/images/shortcuts-800.webp)
+
+## Which cards should you put there?
+
+Keep the cards you use every week in widgets and shortcuts, like your supermarket or gym card. Cards you rarely need can stay in the app, where you can search and sort the full list.
+
+## Related guides
+
+- [Add a card by scanning its barcode](https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/)
+- [Show your cards on Apple Watch](https://lucadevelops.com/blog/loyalty-cards-apple-watch/)
+
+## Frequently asked questions
+
+### Can I access my cards from the Lock Screen or Home Screen?
+
+Yes. PassCollect offers Lock Screen shortcuts and Home Screen widgets so you can get to your most-used cards with a single tap.
+
+---
+
+# How to show your loyalty cards on Apple Watch with PassCollect
+
+> PassCollect includes full Apple Watch support. The watch app shows your cards with their barcodes, so you can scan a loyalty card at checkout straight from your wrist without taking out your iPhone.
+
+- Author: [Luca](https://lucadevelops.com/)
+- Published: 2026-10-28
+- Updated: 2026-10-28
+- Tags: Apple Watch
+- Canonical: https://lucadevelops.com/blog/loyalty-cards-apple-watch/
+
+## Why use your watch for loyalty cards?
+
+At a busy checkout, you often have your hands full. Showing a barcode from your wrist means you don't need to unlock your phone, find the app and scroll to the right card.
+
+## What the Apple Watch app shows
+
+The PassCollect watch app opens to a **Cards** list. Each card appears the way it does on iPhone, with its name, color and barcode. Scroll to see your other cards.
+
+## How to set it up
+
+1. Install [PassCollect on your iPhone](https://apps.apple.com/app/passcollect-store-cards/id6738351871) and add your cards ([here's how](https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/)).
+2. Install the PassCollect watch app. On your iPhone, open the **Watch** app, find PassCollect under **Available Apps**, and tap **Install**. You can also install it from the App Store on your watch.
+3. Open PassCollect on your Apple Watch to see your cards.
+
+## Using it at checkout
+
+1. Open PassCollect on your watch.
+2. Scroll to the card you need.
+3. Hold the watch face up to the scanner so the barcode is visible.
+
+Turn your watch screen brightness up if scanners have trouble reading it.
+
+## Other ways to reach a card quickly
+
+If you'd rather use your iPhone, [Lock Screen shortcuts and Home Screen widgets](https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/) get you to a card with one tap.
+
+## Frequently asked questions
+
+### Does PassCollect work with Apple Watch?
+
+Yes. PassCollect includes full Apple Watch support, so you can access your cards directly from your wrist.
+
+### Do I need an account to use PassCollect on Apple Watch?
+
+No. PassCollect never requires an account, on iPhone or on Apple Watch.
+
+---
+
+# How to add a loyalty card to PassCollect by scanning its barcode
+
+> To add a card in PassCollect, tap the + button and either scan the card's barcode with your iPhone camera or upload a photo of the card. You can then edit the card's name, number, logo, barcode type and color, and attach photos of the front and back.
+
+- Author: [Luca](https://lucadevelops.com/)
+- Published: 2026-10-21
+- Updated: 2026-10-21
+- Tags: Getting started
+- Canonical: https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/
+
+## What you need
+
+- PassCollect installed on your iPhone ([download it free](https://apps.apple.com/app/passcollect-store-cards/id6738351871))
+- The physical card, or a photo of it
+
+You don't need an account. See [why PassCollect works without one](https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/).
+
+## Step 1: Scan the barcode
+
+1. Open PassCollect and tap the **+** button in the top-right corner of the card list.
+2. Point your camera at the card's barcode. PassCollect reads it instantly.
+3. If you don't have the card with you, upload a photo of it instead.
+
+PassCollect allows camera access only so it can scan inside the app. No images or data leave your device. See the [privacy policy](https://lucadevelops.com/privacy/).
+
+## Step 2: Check the card details
+
+After scanning, the **Edit Card** screen opens with a live preview of your card at the top. Under **Card details**, you can change:
+
+| Field | What it's for |
+|---|---|
+| Name | The label shown on the card, such as the store's name |
+| Number | The number encoded in the barcode, filled in from the scan |
+| Logo | An optional logo for the card |
+| Barcode Type | The barcode format, for example Code 128 |
+| Card color | The color of the card in your list |
+
+Tap **Done** to save the card.
+
+## Step 3 (optional): Add front and back images
+
+Some cards have useful information printed on them, like a member number or an expiry date. In the **Images** section of the Edit Card screen, you can add a **Front** and a **Back** image. Each one can come from the camera or from your photo library. Tap the trash icon under an image to remove it.
+
+![Edit Card screen with front and back images of a card in PassCollect](https://lucadevelops.com/images/card-images-800.webp)
+
+## Tips for a clean scan
+
+- Hold the phone steady and parallel to the card.
+- Make sure the whole barcode is in view and well lit.
+- If a scan picks the wrong format, change **Barcode Type** on the Edit Card screen.
+
+## What to do next
+
+- [Show the card on your Apple Watch](https://lucadevelops.com/blog/loyalty-cards-apple-watch/)
+- [Add a Lock Screen shortcut or Home Screen widget](https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/) so the card is one tap away
+
+---
+
 # How do you store loyalty cards on iPhone without creating an account?
 
 > PassCollect lets you save loyalty cards, passes and memberships on your iPhone without creating an account or logging in. Your cards stay on your device and sync privately through your own iCloud account. Nothing is uploaded to PassCollect's servers.
 
 - Author: [Luca](https://lucadevelops.com/)
-- Published: 2026-11-11
-- Updated: 2026-11-11
+- Published: 2026-10-14
+- Updated: 2026-10-14
 - Tags: Getting started, Privacy
 - Canonical: https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/
 
@@ -235,227 +449,13 @@ PassCollect is free to download on the App Store.
 
 ---
 
-# How to add a loyalty card to PassCollect by scanning its barcode
-
-> To add a card in PassCollect, tap the + button and either scan the card's barcode with your iPhone camera or upload a photo of the card. You can then edit the card's name, number, logo, barcode type and color, and attach photos of the front and back.
-
-- Author: [Luca](https://lucadevelops.com/)
-- Published: 2026-11-11
-- Updated: 2026-11-11
-- Tags: Getting started
-- Canonical: https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/
-
-## What you need
-
-- PassCollect installed on your iPhone ([download it free](https://apps.apple.com/app/passcollect-store-cards/id6738351871))
-- The physical card, or a photo of it
-
-You don't need an account. See [why PassCollect works without one](https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/).
-
-## Step 1: Scan the barcode
-
-1. Open PassCollect and tap the **+** button in the top-right corner of the card list.
-2. Point your camera at the card's barcode. PassCollect reads it instantly.
-3. If you don't have the card with you, upload a photo of it instead.
-
-PassCollect allows camera access only so it can scan inside the app. No images or data leave your device. See the [privacy policy](https://lucadevelops.com/privacy/).
-
-## Step 2: Check the card details
-
-After scanning, the **Edit Card** screen opens with a live preview of your card at the top. Under **Card details**, you can change:
-
-| Field | What it's for |
-|---|---|
-| Name | The label shown on the card, such as the store's name |
-| Number | The number encoded in the barcode, filled in from the scan |
-| Logo | An optional logo for the card |
-| Barcode Type | The barcode format, for example Code 128 |
-| Card color | The color of the card in your list |
-
-Tap **Done** to save the card.
-
-## Step 3 (optional): Add front and back images
-
-Some cards have useful information printed on them, like a member number or an expiry date. In the **Images** section of the Edit Card screen, you can add a **Front** and a **Back** image. Each one can come from the camera or from your photo library. Tap the trash icon under an image to remove it.
-
-![Edit Card screen with front and back images of a card in PassCollect](https://lucadevelops.com/images/card-images-800.webp)
-
-## Tips for a clean scan
-
-- Hold the phone steady and parallel to the card.
-- Make sure the whole barcode is in view and well lit.
-- If a scan picks the wrong format, change **Barcode Type** on the Edit Card screen.
-
-## What to do next
-
-- [Show the card on your Apple Watch](https://lucadevelops.com/blog/loyalty-cards-apple-watch/)
-- [Add a Lock Screen shortcut or Home Screen widget](https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/) so the card is one tap away
-
----
-
-# How to open a loyalty card with one tap from your Lock Screen or Home Screen
-
-> PassCollect has Lock Screen shortcuts and Home Screen widgets that open your most-used cards with a single tap. One widget shows a card's barcode right on the Home Screen. Another gives you buttons for several cards at once.
-
-- Author: [Luca](https://lucadevelops.com/)
-- Published: 2026-11-11
-- Updated: 2026-11-11
-- Tags: Widgets & shortcuts, Getting started
-- Canonical: https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/
-
-## Which quick-access options are there?
-
-| Option | Where it lives | What it does |
-|---|---|---|
-| Shortcut | Lock Screen | Opens PassCollect with one tap, without unlocking first |
-| Single-card widget | Home Screen | Shows one card's barcode directly on the Home Screen |
-| Multi-card widget | Home Screen | Shows buttons for several cards, each one tap away |
-
-## Add a PassCollect widget to your Home Screen
-
-1. Touch and hold an empty area of your Home Screen until the apps jiggle.
-2. Tap **Edit**, then **Add Widget**.
-3. Search for **PassCollect** and choose a widget. The **single-card widget** shows a card's name and barcode. The **multi-card widget** shows buttons for several cards.
-4. Tap **Add Widget**, place it where you like, and tap **Done**.
-
-## Add a PassCollect shortcut to your Lock Screen
-
-1. Touch and hold your Lock Screen, then tap **Customize** and choose **Lock Screen**.
-2. Tap one of the shortcut buttons at the bottom of the screen to replace it.
-3. Search for **PassCollect** and select it.
-4. Tap **Done**.
-
-You can also add the same control to **Control Center**.
-
-![PassCollect shortcut on the iPhone Lock Screen and in Control Center](https://lucadevelops.com/images/shortcuts-800.webp)
-
-## Which cards should you put there?
-
-Keep the cards you use every week in widgets and shortcuts, like your supermarket or gym card. Cards you rarely need can stay in the app, where you can search and sort the full list.
-
-## Related guides
-
-- [Add a card by scanning its barcode](https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/)
-- [Show your cards on Apple Watch](https://lucadevelops.com/blog/loyalty-cards-apple-watch/)
-
-## Frequently asked questions
-
-### Can I access my cards from the Lock Screen or Home Screen?
-
-Yes. PassCollect offers Lock Screen shortcuts and Home Screen widgets so you can get to your most-used cards with a single tap.
-
----
-
-# How to show your loyalty cards on Apple Watch with PassCollect
-
-> PassCollect includes full Apple Watch support. The watch app shows your cards with their barcodes, so you can scan a loyalty card at checkout straight from your wrist without taking out your iPhone.
-
-- Author: [Luca](https://lucadevelops.com/)
-- Published: 2026-11-11
-- Updated: 2026-11-11
-- Tags: Apple Watch
-- Canonical: https://lucadevelops.com/blog/loyalty-cards-apple-watch/
-
-## Why use your watch for loyalty cards?
-
-At a busy checkout, you often have your hands full. Showing a barcode from your wrist means you don't need to unlock your phone, find the app and scroll to the right card.
-
-## What the Apple Watch app shows
-
-The PassCollect watch app opens to a **Cards** list. Each card appears the way it does on iPhone, with its name, color and barcode. Scroll to see your other cards.
-
-## How to set it up
-
-1. Install [PassCollect on your iPhone](https://apps.apple.com/app/passcollect-store-cards/id6738351871) and add your cards ([here's how](https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/)).
-2. Install the PassCollect watch app. On your iPhone, open the **Watch** app, find PassCollect under **Available Apps**, and tap **Install**. You can also install it from the App Store on your watch.
-3. Open PassCollect on your Apple Watch to see your cards.
-
-## Using it at checkout
-
-1. Open PassCollect on your watch.
-2. Scroll to the card you need.
-3. Hold the watch face up to the scanner so the barcode is visible.
-
-Turn your watch screen brightness up if scanners have trouble reading it.
-
-## Other ways to reach a card quickly
-
-If you'd rather use your iPhone, [Lock Screen shortcuts and Home Screen widgets](https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/) get you to a card with one tap.
-
-## Frequently asked questions
-
-### Does PassCollect work with Apple Watch?
-
-Yes. PassCollect includes full Apple Watch support, so you can access your cards directly from your wrist.
-
-### Do I need an account to use PassCollect on Apple Watch?
-
-No. PassCollect never requires an account, on iPhone or on Apple Watch.
-
----
-
-# Using PassCollect on iPhone Duo — folded and unfolded layouts
-
-> PassCollect supports iPhone Duo and adapts its layout to the screen you're using. Folded, your cards sit in a compact two-column grid. Unfolded, they spread across three columns, with pinned cards at the top and the toolbar always in reach.
-
-- Author: [Luca](https://lucadevelops.com/)
-- Published: 2026-11-11
-- Updated: 2026-11-11
-- Tags: iPhone Duo
-- Canonical: https://lucadevelops.com/blog/passcollect-iphone-duo/
-
-## Does PassCollect support iPhone Duo?
-
-Yes. PassCollect's layout adapts to iPhone Duo, so your cards fit the screen whether the phone is folded or unfolded.
-
-## How the layout changes
-
-| | Folded | Unfolded |
-|---|---|---|
-| Card grid | Two columns | Three columns |
-| Pinned cards | At the top | At the top |
-| Toolbar | Along the side | Along the side |
-| Search | Bottom of the toolbar | Bottom of the toolbar |
-
-### Folded
-
-When iPhone Duo is folded, PassCollect uses a compact two-column grid. You can see several cards at once without scrolling.
-
-### Unfolded
-
-When you unfold the phone, the same cards spread out across the wider display. With three cards per row, more of your collection fits on one screen.
-
-## Pinned cards stay on top
-
-In both layouts, your **pinned cards** appear at the top of the list, so your favorites are the first thing you see whichever way you hold the phone.
-
-## The toolbar is always in reach
-
-On iPhone Duo, PassCollect's controls sit in a toolbar along the side of the screen:
-
-- **Settings**
-- **Layout**, to switch how your cards are shown
-- **Sort**
-- **Add**, to save a new card ([how to add a card](https://lucadevelops.com/blog/add-loyalty-card-scan-barcode/))
-- **Search**, at the bottom
-
-## Everything else works the same
-
-All of PassCollect's features work on iPhone Duo too:
-
-- [No account required](https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/)
-- [Apple Watch support](https://lucadevelops.com/blog/loyalty-cards-apple-watch/)
-- [Lock Screen shortcuts and Home Screen widgets](https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/)
-
----
-
 # Where is my card data stored? PassCollect's privacy model explained
 
 > PassCollect stores your cards on your iPhone and backs them up through your own iCloud account. It never uploads card data to its servers, and it doesn't use analytics or third-party services that collect data. There's no account, so there's no profile to collect either.
 
 - Author: [Luca](https://lucadevelops.com/)
-- Published: 2026-11-11
-- Updated: 2026-11-11
+- Published: 2026-10-07
+- Updated: 2026-10-07
 - Tags: Privacy
 - Canonical: https://lucadevelops.com/blog/passcollect-privacy-where-card-data-is-stored/
 

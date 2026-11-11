@@ -2,8 +2,8 @@
 title: How to add a loyalty card to PassCollect by scanning its barcode
 description: Step-by-step guide to adding a loyalty card in PassCollect by scanning the barcode or uploading a photo, then setting its name, logo, barcode type, color and images.
 summary: To add a card in PassCollect, tap the + button and either scan the card's barcode with your iPhone camera or upload a photo of the card. You can then edit the card's name, number, logo, barcode type and color, and attach photos of the front and back.
-date: 2026-11-11
-updated: 2026-11-11
+date: 2026-10-21
+updated: 2026-10-21
 tags: getting-started
 image: /images/instant-scanning-800.webp
 imageAlt: Scanning a card's barcode in PassCollect, followed by the Edit Card screen with name, number, logo, barcode type and color

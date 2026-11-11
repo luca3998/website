@@ -2,8 +2,8 @@
 title: How do you store loyalty cards on iPhone without creating an account?
 description: Use PassCollect to keep loyalty cards, passes and memberships on your iPhone with no sign-up or login. Your cards stay on your device and in your own iCloud.
 summary: PassCollect lets you save loyalty cards, passes and memberships on your iPhone without creating an account or logging in. Your cards stay on your device and sync privately through your own iCloud account. Nothing is uploaded to PassCollect's servers.
-date: 2026-11-11
-updated: 2026-11-11
+date: 2026-10-14
+updated: 2026-10-14
 tags: getting-started, privacy
 image: /images/first-800.webp
 imageAlt: PassCollect card list on iPhone showing saved loyalty cards with their barcodes

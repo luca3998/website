@@ -2,8 +2,8 @@
 title: Where is my card data stored? PassCollect's privacy model explained
 description: PassCollect doesn't collect, store or share your data. Cards live on your iPhone and are backed up through your own iCloud account, with no servers, analytics or third parties involved.
 summary: PassCollect stores your cards on your iPhone and backs them up through your own iCloud account. It never uploads card data to its servers, and it doesn't use analytics or third-party services that collect data. There's no account, so there's no profile to collect either.
-date: 2026-11-11
-updated: 2026-11-11
+date: 2026-10-07
+updated: 2026-10-07
 tags: privacy
 image: /images/first-800.webp
 imageAlt: PassCollect card list on iPhone with saved loyalty cards

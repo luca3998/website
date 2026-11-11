@@ -3,8 +3,8 @@
 > PassCollect lets you save loyalty cards, passes and memberships on your iPhone without creating an account or logging in. Your cards stay on your device and sync privately through your own iCloud account. Nothing is uploaded to PassCollect's servers.
 
 - Author: [Luca](https://lucadevelops.com/)
-- Published: 2026-11-11
-- Updated: 2026-11-11
+- Published: 2026-10-14
+- Updated: 2026-10-14
 - Tags: Getting started, Privacy
 - Canonical: https://lucadevelops.com/blog/store-loyalty-cards-iphone-without-account/
 

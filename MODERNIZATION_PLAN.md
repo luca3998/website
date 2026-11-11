@@ -213,5 +213,5 @@ Don't edit generated files by hand. These are overwritten on every build:
 4. **An About page for Luca.** It would give the `Person` schema a better `url` than the homepage, and could add `sameAs` links.
 5. **Self-host Archivo** (or use the system font). It's the main remaining blocker for mobile LCP.
 6. **`images/original/` (18 MB) is deployed** even though no page references it. Exclude it from the Pages upload, or move it out of the repo.
-7. **Copyright year:** the footer still says © 2025.
+7. ~~Copyright year~~: updated to © 2026.
 

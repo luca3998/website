@@ -294,7 +294,7 @@ ${main}
         <li><a href="mailto:${AUTHOR.email}">Contact Us</a></li>
         <li><a href="/feed.xml">Feed</a></li>
       </ul>
-      <small>© 2025 PassCollect. All rights reserved.</small>
+      <small>© 2026 PassCollect. All rights reserved.</small>
     </div>
   </footer>
 </body>

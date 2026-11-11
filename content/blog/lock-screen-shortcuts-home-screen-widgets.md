@@ -2,8 +2,8 @@
 title: How to open a loyalty card with one tap from your Lock Screen or Home Screen
 description: Set up PassCollect Lock Screen shortcuts and Home Screen widgets to open your most-used loyalty cards with a single tap on iPhone.
 summary: PassCollect has Lock Screen shortcuts and Home Screen widgets that open your most-used cards with a single tap. One widget shows a card's barcode right on the Home Screen. Another gives you buttons for several cards at once.
-date: 2026-11-11
-updated: 2026-11-11
+date: 2026-11-04
+updated: 2026-11-04
 tags: widgets, getting-started
 image: /images/widgets-800.webp
 imageAlt: Two PassCollect Home Screen widgets on iPhone, one showing a card's barcode and one with buttons for three cards

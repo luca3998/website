@@ -3,8 +3,8 @@
 > PassCollect stores your cards on your iPhone and backs them up through your own iCloud account. It never uploads card data to its servers, and it doesn't use analytics or third-party services that collect data. There's no account, so there's no profile to collect either.
 
 - Author: [Luca](https://lucadevelops.com/)
-- Published: 2026-11-11
-- Updated: 2026-11-11
+- Published: 2026-10-07
+- Updated: 2026-10-07
 - Tags: Privacy
 - Canonical: https://lucadevelops.com/blog/passcollect-privacy-where-card-data-is-stored/
 

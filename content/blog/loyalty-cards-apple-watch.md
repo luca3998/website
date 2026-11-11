@@ -2,8 +2,8 @@
 title: How to show your loyalty cards on Apple Watch with PassCollect
 description: PassCollect includes Apple Watch support, so you can open a loyalty card's barcode from your wrist at checkout without taking out your iPhone.
 summary: PassCollect includes full Apple Watch support. The watch app shows your cards with their barcodes, so you can scan a loyalty card at checkout straight from your wrist without taking out your iPhone.
-date: 2026-11-11
-updated: 2026-11-11
+date: 2026-10-28
+updated: 2026-10-28
 tags: apple-watch
 image: /images/apple-watch-800.webp
 imageAlt: PassCollect on Apple Watch showing a card's barcode, next to the same card list on iPhone

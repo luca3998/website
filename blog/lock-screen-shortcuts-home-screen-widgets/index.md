@@ -3,8 +3,8 @@
 > PassCollect has Lock Screen shortcuts and Home Screen widgets that open your most-used cards with a single tap. One widget shows a card's barcode right on the Home Screen. Another gives you buttons for several cards at once.
 
 - Author: [Luca](https://lucadevelops.com/)
-- Published: 2026-11-11
-- Updated: 2026-11-11
+- Published: 2026-11-04
+- Updated: 2026-11-04
 - Tags: Widgets & shortcuts, Getting started
 - Canonical: https://lucadevelops.com/blog/lock-screen-shortcuts-home-screen-widgets/
 
