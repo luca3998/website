@@ -40,9 +40,6 @@ jobs:
           node-version: 20
       - name: Build blog, feed, sitemap and llms.txt
         run: node scripts/build.mjs
-      - name: Keep internal docs off the website
-        # Removed from the deploy copy only; the file stays in the repo.
-        run: rm -f MODERNIZATION_PLAN.md
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
