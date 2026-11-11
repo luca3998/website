@@ -1,6 +1,6 @@
 # Modernization Plan — lucadevelops.com (PassCollect)
 
-Status: **Phase 0 done. Waiting for approval before implementing.**
+Status: **Implemented. See the summary at the end.**
 
 ## 1. What's in the repo
 
@@ -110,4 +110,108 @@ Applies to the pages that exist now:
 4. `Phase 3: blog, structured data and generated discovery files`
 
 ---
-*(Change summary, how-to-add-content and follow-ups will be appended here after implementation.)*
+# Implementation summary (2026-11-11)
+
+Status: **implemented in four local commits. Nothing has been pushed.** Pushing to `main` deploys the site.
+
+| Commit | What |
+|---|---|
+| `Minimal redesign: new screenshots, hero, iPhone Duo section; remove rethink` | Assets, shared stylesheet, minimal look, iPhone Duo section, privacy restyle |
+| `Phase 1: animated gradient mesh, CTA ring and hero gradient text` | Gradient tokens, `@property` animation, reduced-motion gating, off-screen pause |
+| `Phase 2: reusable progressive blur` | `.pblur` utility on the header and screenshot strip |
+| `Phase 3: guides, structured data and generated discovery files` | 6 guides, `scripts/build.mjs`, JSON-LD, feed, sitemap, llms.txt, Markdown copies, CI build |
+
+## Lighthouse (local, `lighthouse@12.2.1`)
+
+| Page | Mode | Perf | A11y | Best practices | SEO | LCP |
+|---|---|---|---|---|---|---|
+| Home, before | mobile | 42 | 100 | 100 | 100 | 45.3 s |
+| Home, after | mobile | **93** | 100 | 100 | 100 | 2.8 s |
+| Home, before | desktop | 75 | 100 | 100 | 100 | 7.5 s |
+| Home, after | desktop | **99** | 100 | 100 | 100 | 0.7 s |
+| Article, after | mobile / desktop | 95 / 100 | 100 | 100 | 100 | 2.4 s / 0.7 s |
+
+The main win is image weight: about 16 MB of PNG screenshots became about 400 KB of WebP, with `srcset` and lazy loading. Dropping four unused font families also helped.
+
+## What was verified
+- **Rendering:** no console errors, failed requests or horizontal overflow at 390 px and 1280 px, in light and dark mode (Chrome, via Puppeteer).
+- **Reduced motion:** with `prefers-reduced-motion: reduce`, no animations run. With `no-preference`, the hero animation pauses when off-screen.
+- **Scroll performance:** about 60 fps when scrolling a 390 px viewport at 4× CPU throttle, with and without the blur layers. Headless Chrome doesn't fully reproduce a phone GPU, so check on a real iPhone.
+- **Contrast:** body text is at least 6.1:1 and accent text at least 4.96:1 (light) / 8.5:1 (dark). The decorative `--accent` (2.99:1) is never used for text.
+- **JSON-LD:** every page's JSON-LD parses. Types per page:
+  - Home: `WebSite`, `Person`, `MobileApplication`, `FAQPage`
+  - Privacy: `WebPage`, `BreadcrumbList`
+  - Articles: `BlogPosting`, `BreadcrumbList`, plus `FAQPage` on the 4 guides with a Q&A section
+  - Index and tag pages: `CollectionPage`
+- **Feed and sitemap:** `feed.xml` and `sitemap.xml` pass `xmllint`.
+- **Page structure:** every page has one `<h1>`, no skipped heading levels, alt text on every image, a canonical URL and a Markdown alternate. All internal links resolve.
+- **Not tested here:** Safari and Firefox (no automation available on this machine). See the follow-ups.
+
+## Content edits (complete list)
+The homepage and privacy policy wording was kept. Everything below is new or changed:
+- **Homepage, new text:**
+  - Hero eyebrow "For iPhone, iPhone Duo & Apple Watch" and the hero note "Free · No account needed"
+  - Section eyebrows (Features, iPhone Duo, Screenshots, Guides, FAQ)
+  - A 6th feature card, "iPhone Duo"
+  - The "Made for iPhone Duo" section: intro, caption and three points
+  - A new FAQ entry, "Does PassCollect support iPhone Duo?" (also added to the FAQPage JSON-LD)
+  - Six screenshot captions
+  - The "Get more out of PassCollect" guides section heading and intro
+- **Homepage, removed:** the emoji icons on the feature cards (replaced by 01–06) and the old App Store badge alt text "App Store icon" (the link keeps its `aria-label`).
+- **Homepage, alt text:** all image alt text was rewritten to be descriptive. For example, "PassCollect App Hero Image" became a description of the screenshot.
+- **Navigation and footer:** the nav now reads Features / iPhone Duo / Guides / FAQ / Download. The footer adds Guides and Feed links.
+- **Privacy page:** no wording changes. The effective date is now wrapped in `<time>`.
+- **llms.txt:** ReThink removed and an iPhone Duo fact added. The file is now generated.
+- **Guides:** six new articles in `content/blog/`, written only from what the site and screenshots show.
+
+### Please check these facts
+These come from reading the screenshots, not from the existing site text:
+- The PassCollect control can also be added to **Control Center** (`shortcuts.png` appears to show this).
+- The exact Lock Screen and Home Screen setup steps (these are standard iOS flows).
+- Installing the watch app via the Watch app's **Available Apps** list.
+- On iPhone Duo: the side toolbar (Settings, Layout, Sort, Add, Search) and **pinned cards** at the top.
+- "iPhone Duo" is used exactly as you named it.
+- "Free" comes from the existing JSON-LD (`price: 0`) and `llms.txt`.
+
+## How to add a new article
+1. Create `content/blog/<url-slug>.md`. The filename becomes `/blog/<url-slug>/`, so keep it stable.
+   ```markdown
+   ---
+   title: A question or clear statement (becomes the <h1> and headline)
+   description: One sentence, ≤160 characters, for meta description and lists.
+   summary: 1–3 sentence TL;DR shown at the top of the article.
+   date: 2026-12-01
+   updated: 2026-12-01
+   tags: getting-started, privacy
+   image: /images/first-800.webp
+   imageAlt: Describe what the image shows
+   ---
+
+   ## First section heading
+   Body in Markdown: ## / ### headings, lists, | tables |, [links](/blog/...), ![alt](/images/x-800.webp)
+
+   ## Frequently asked questions   ← optional; each ### question becomes FAQPage JSON-LD
+   ### A question?
+   The answer.
+   ```
+2. Images: add `name-400.webp` and `name-800.webp` (for example `cwebp -q 82 -resize 800 0 in.png -o images/name-800.webp`). The build adds `srcset` and width/height automatically.
+3. Run `node scripts/build.mjs` and commit. CI also runs the build before deploying.
+4. The build gives the article its HTML page, Markdown copy, JSON-LD, tag pages, related links, a homepage listing, and entries in the feed, sitemap, `llms.txt` and `llms-full.txt`. When you edit an article, bump `updated` so the visible date, `dateModified`, the feed and the sitemap `<lastmod>` change.
+5. New tag? Add a display label to `TAG_LABELS` in `scripts/build.mjs`. Otherwise the slug is title-cased.
+
+Don't edit generated files by hand. These are overwritten on every build:
+- `blog/**`
+- `feed.xml`, `sitemap.xml`, `robots.txt`
+- `llms.txt`, `llms-full.txt`
+- `index.md`, `privacy/index.md`
+- the list between `<!-- guides:start -->` and `<!-- guides:end -->` in `index.html`
+
+## Recommended follow-ups
+1. **Test in real Safari (macOS and iOS) and Firefox:** the mesh, the CTA ring and the blur. Everything has fallbacks, but they haven't been seen in those browsers.
+2. **Push when happy.** After deploying, run Google's Rich Results Test and validator.schema.org on the homepage and one guide, and submit `sitemap.xml` in Search Console.
+3. **Per-article OG images** (1200×630 JPEG). All pages currently share `webpreview.jpg`.
+4. **An About page for Luca.** It would give the `Person` schema a better `url` than the homepage, and could add `sameAs` links.
+5. **Self-host Archivo** (or use the system font). It's the main remaining blocker for mobile LCP.
+6. **`images/original/` (18 MB) is deployed** even though no page references it. Exclude it from the Pages upload, or move it out of the repo.
+7. **Copyright year:** the footer still says © 2025.
+
